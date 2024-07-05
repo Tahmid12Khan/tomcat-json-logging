@@ -26,7 +26,7 @@ public class LogEvent {
         return new Builder();
     }
 
-    @SerializedName("when")
+    @SerializedName("@timestamp")
     private final Date when;
     @SerializedName("level")
     private final LogLevel level;
